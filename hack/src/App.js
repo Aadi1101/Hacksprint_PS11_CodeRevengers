@@ -11,8 +11,7 @@ function App() {
       <Router>
           <Routes>
             <Route exact path="/" element={<Home/>}/>
-            {/* <Route exact path="/form" element={<Form/>}/>
-            <Route exact path={'/patient=:userId'} element={<Details  />}/> */}
+            
           </Routes>
       </Router>
 

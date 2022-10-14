@@ -6,10 +6,6 @@
     padding: 0;
 }
 
-.Main{
-    background-color: white;
-}
-
 .header{
     background-color: purple;
     color: white;
@@ -22,31 +18,80 @@
 }
 
 .main-body{
-    background-color: aqua;
+    min-height: 91.5vh;
     display: grid;
     grid-template-columns: 20% 80%;
 }
 
-.main-body > .main-nav{
-    margin: 1em 1em;
+.main-nav{
+    border : 1px solid grey;
     padding-block: 1em;
-    text-align: center;
-    background-color: wheat;
+    background-color: orange;
     display: flex;
     flex-direction: column ;
     row-gap: 1.25em;
 }
 
-
-.chat-page{
-    background-color: beige;
+.main-nav > button{
+    
+    padding: .7em;
+    min-width: fit-content;
+    font-weight: 700;
 }
+
+.main-nav > button > h5{
+    padding-top: 5px;
+}
+
+
+
+.chat-window{
+    background-color: black;
+}
+
 .chat-header{
+    margin: .5em 1em;
+    padding: .5em .5em .5em 2em;
     display:grid;
     background-color: aliceblue;
     grid-template-columns: 10% 80% 5% 5%;
 }
 
+.big-svg{
+    width: 45px;
+    height: 45px;
+}
+
+.small-svg{
+    padding-top: 1em;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.more-options{
+    cursor: pointer;
+}
+
 .chat-wrapper{
     min-height: 65vh;
 }
+
+.chat-content{
+    min-height: 65vh;
+    background-color: black;
+}
+
+.chat-input{
+    margin-top: 1em;
+    padding-inline: 3em;
+    display: grid;
+    grid-template-columns: 70% 10% 10%;
+    column-gap: 1.5em;
+}
+
+.chat-input > input{
+    padding-left: 20px;
+    /* text-indent: 15px; */
+}
+
