@@ -1,0 +1,52 @@
+.App{
+    width: 100%;
+    background-color: White;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    background-color: white;
+}
+
+.header{
+    background-color: purple;
+    color: white;
+    padding: .5em 1em;
+    display: grid;
+    grid-template-columns: 30% 65% 5%;
+}
+.header > h5{
+    padding-top: 0.25em;
+}
+
+.main-body{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.main-body > .main-nav{
+    margin: 1em 1em;
+    padding-block: 1em;
+    text-align: center;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column ;
+    row-gap: 1.25em;
+}
+
+
+.chat-page{
+    background-color: beige;
+}
+.chat-header{
+    display:grid;
+    background-color: aliceblue;
+    grid-template-columns: 10% 80% 5% 5%;
+}
+
+.chat-wrapper{
+    min-height: 65vh;
+}
